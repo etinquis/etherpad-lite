@@ -197,6 +197,20 @@ domline.createDomLine = function(nonEmpty, doesWrap, optBrowser, optDocument)
       result.node.innerHTML = curHTML;
     }
     if (lineClass !== null) result.node.className = lineClass;
+	
+	var plugins_;
+    if (typeof(plugins) != 'undefined')
+    {
+      plugins_ = plugins;
+    }
+    else
+    {
+      plugins_ = parent.parent.plugins;
+    }
+	
+	plugins_.callHook("acePostWriteDomLineHTML", {
+	  node: result.node,
+    })
   }
   result.prepareForAdd = writeHTML;
   result.finishUpdate = writeHTML;
