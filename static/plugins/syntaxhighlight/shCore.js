@@ -14,4 +14,914 @@
  * @license
  * Dual licensed under the MIT and GPL licenses.
  */
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('F H;D(H)1y 2k("23\'t 3K H 4Y 1Z 3j 50 4l");(6(){6 p(a,c){D(!H.1A(a))1y 3m("3b Y 4y");F f=a.1e;a=H(a.1g,v(a)+(c||""));D(f)a.1e={1g:f.1g,14:f.14?f.14.15(0):I};C a}6 v(a){C(a.1o?"g":"")+(a.4K?"i":"")+(a.52?"m":"")+(a.4u?"x":"")+(a.3F?"y":"")}6 w(a,c,f,h){F i=t.E,g,k,j;r=T;4A{J(;i--;){j=t[i];D(f&j.3r&&(!j.2e||j.2e.N(h))){j.2o.R=c;D((k=j.2o.Q(a))&&k.K===c){g={3t:j.2f.N(h,k,f),1n:k};1I}}}}4C(n){1y n}4F{r=W}C g}6 s(a,c,f){D(3C.P.1u)C a.1u(c,f);J(f=f||0;f<a.E;f++)D(a[f]===c)C f;C-1}H=6(a,c){F f=[],h=H.1p,i=0,g,k;D(H.1A(a)){D(c!==12)1y 3m("23\'t 4s 4T 4S 4L 4a Y 47 44");C p(a)}D(r)1y 2k("23\'t N 3j H 40 4h 4g 4d 3O");c=c||"";J(g={2u:W,14:[],2d:6(j){C c.1u(j)>-1},2L:6(j){c+=j}};i<a.E;)D(k=w(a,i,h,g)){f.M(k.3t);i+=k.1n[0].E||1}U D(k=m.Q.N(d[h],a.15(i))){f.M(k[0]);i+=k[0].E}U{k=a.3h(i);D(k==="[")h=H.2q;U D(k==="]")h=H.1p;f.M(k);i++}f=Y(f.2z(""),m.L.N(c,x,""));f.1e={1g:a,14:g.2u?g.14:I};C f};H.2S="1.5.0";H.2q=1;H.1p=2;F z=/\\$(?:(\\d\\d?|[$&`\'])|{([$\\w]+)})/g,x=/[^3U]+|([\\s\\S])(?=[\\s\\S]*\\1)/g,u=/^(?:[?*+]|{\\d+(?:,\\d*)?})\\??/,r=W,t=[],m={Q:Y.P.Q,1j:Y.P.1j,1n:1i.P.1n,L:1i.P.L,1b:1i.P.1b},A=m.Q.N(/()??/,"")[1]===12,l=6(){F a=/^/g;m.1j.N(a,"");C!a.R}(),b=6(){F a=/x/g;m.L.N("x",a,"");C!a.R}(),e=Y.P.3F!==12,d={};d[H.2q]=/^(?:\\\\(?:[0-3][0-7]{0,2}|[4-7][0-7]?|x[\\1Y-20-f]{2}|u[\\1Y-20-f]{4}|c[A-3x-z]|[\\s\\S]))/;d[H.1p]=/^(?:\\\\(?:0(?:[0-3][0-7]{0,2}|[4-7][0-7]?)?|[1-9]\\d*|x[\\1Y-20-f]{2}|u[\\1Y-20-f]{4}|c[A-3x-z]|[\\s\\S])|\\(\\?[:=!]|[?*+]\\?|{\\d+(?:,\\d*)?}\\??)/;H.17=6(a,c,f,h){t.M({2o:p(a,"g"+(e?"y":"")),2f:c,3r:f||H.1p,2e:h||I})};H.2a=6(a,c){F f=a+"/"+(c||"");C H.2a[f]||(H.2a[f]=H(a,c))};H.3J=6(a){C p(a,"g")};H.4W=6(a){C a.L(/[-[\\]{}()*+?.,\\\\^$|#\\s]/g,"\\\\$&")};H.4t=6(a,c,f,h){c=p(c,"g"+(h&&e?"y":""));c.R=f=f||0;a=c.Q(a);C h?a&&a.K===f?a:I:a};H.3i=6(){H.17=6(){1y 2k("23\'t 4n 17 4o 3i")}};H.1A=6(a){C 4q.P.1a.N(a)==="[2j Y]"};H.3o=6(a,c,f,h){J(F i=p(c,"g"),g=-1,k;k=i.Q(a);){f.N(h,k,++g,a,i);i.R===k.K&&i.R++}D(c.1o)c.R=0};H.4w=6(a,c){C 6 f(h,i){F g=c[i].1q?c[i]:{1q:c[i]},k=p(g.1q,"g"),j=[],n;J(n=0;n<h.E;n++)H.3o(h[n],k,6(o){j.M(g.3z?o[g.3z]||"":o[0])});C i===c.E-1||!j.E?j:f(j,i+1)}([a],0)};Y.P.1k=6(a,c){C G.Q(c[0])};Y.P.N=6(a,c){C G.Q(c)};Y.P.Q=6(a){F c=m.Q.1k(G,V),f;D(c){D(!A&&c.E>1&&s(c,"")>-1){f=Y(G.1g,m.L.N(v(G),"g",""));m.L.N(a.1a().15(c.K),f,6(){J(F i=1;i<V.E-2;i++)D(V[i]===12)c[i]=12})}D(G.1e&&G.1e.14)J(F h=1;h<c.E;h++)D(f=G.1e.14[h-1])c[f]=c[h];!l&&G.1o&&!c[0].E&&G.R>c.K&&G.R--}C c};D(!l)Y.P.1j=6(a){(a=m.Q.N(G,a))&&G.1o&&!a[0].E&&G.R>a.K&&G.R--;C!!a};1i.P.1n=6(a){H.1A(a)||(a=Y(a));D(a.1o){F c=m.1n.1k(G,V);a.R=0;C c}C a.Q(G)};1i.P.L=6(a,c){F f=H.1A(a),h,i;D(f&&16 c.4x()==="3c"&&c.1u("${")===-1&&b)C m.L.1k(G,V);D(f){D(a.1e)h=a.1e.14}U a+="";D(16 c==="6")i=m.L.N(G,a,6(){D(h){V[0]=18 1i(V[0]);J(F g=0;g<h.E;g++)D(h[g])V[0][h[g]]=V[g+1]}D(f&&a.1o)a.R=V[V.E-2]+V[0].E;C c.1k(I,V)});U{i=G+"";i=m.L.N(i,a,6(){F g=V;C m.L.N(c,z,6(k,j,n){D(j)4G(j){26"$":C"$";26"&":C g[0];26"`":C g[g.E-1].15(0,g[g.E-2]);26"\'":C g[g.E-1].15(g[g.E-2]+g[0].E);4D:n="";j=+j;D(!j)C k;J(;j>g.E-3;){n=1i.P.15.N(j,-1)+n;j=1T.3I(j/10)}C(j?g[j]||"":"$")+n}U{j=+n;D(j<=g.E-3)C g[j];j=h?s(h,n):-1;C j>-1?g[j+1]:k}})})}D(f&&a.1o)a.R=0;C i};1i.P.1b=6(a,c){D(!H.1A(a))C m.1b.1k(G,V);F f=G+"",h=[],i=0,g,k;D(c===12||+c<0)c=4z;U{c=1T.3I(+c);D(!c)C[]}J(a=H.3J(a);g=a.Q(f);){D(a.R>i){h.M(f.15(i,g.K));g.E>1&&g.K<f.E&&3C.P.M.1k(h,g.15(1));k=g[0].E;i=a.R;D(h.E>=c)1I}a.R===g.K&&a.R++}D(i===f.E){D(!m.1j.N(a,"")||k)h.M("")}U h.M(f.15(i));C h.E>c?h.15(0,c):h};H.17(/\\(\\?#[^)]*\\)/,6(a){C m.1j.N(u,a.2m.15(a.K+a[0].E))?"":"(?:)"});H.17(/\\((?!\\?)/,6(){G.14.M(I);C"("});H.17(/\\(\\?<([$\\w]+)>/,6(a){G.14.M(a[1]);G.2u=T;C"("});H.17(/\\\\k<([\\w$]+)>/,6(a){F c=s(G.14,a[1]);C c>-1?"\\\\"+(c+1)+(3w(a.2m.3h(a.K+a[0].E))?"":"(?:)"):a[0]});H.17(/\\[\\^?]/,6(a){C a[0]==="[]"?"\\\\b\\\\B":"[\\\\s\\\\S]"});H.17(/^\\(\\?([4B]+)\\)/,6(a){G.2L(a[1]);C""});H.17(/(?:\\s+|#.*)+/,6(a){C m.1j.N(u,a.2m.15(a.K+a[0].E))?"":"(?:)"},H.1p,6(){C G.2d("x")});H.17(/\\./,6(){C"[\\\\s\\\\S]"},H.1p,6(){C G.2d("s")})})();16 21!="12"&&(21.H=H);D(16 1c=="12")F 1c=6(){6 p(b){C b.1u("36")==0?b:"36"+b}6 v(b){C l.1M.2s[p(b)]}6 w(b,e,d){D(b==I)C I;F a=d!=T?b.4p:[b.4r],c={"#":"1Q",".":"1s"}[e.1R(0,1)]||"39",f,h;f=c!="39"?e.1R(1):e.4v();D((b[c]||"").1u(f)!=-1)C b;J(b=0;a&&b<a.E&&h==I;b++)h=w(a[b],e,d);C h}6 s(b,e){F d={},a;J(a 1Z b)d[a]=b[a];J(a 1Z e)d[a]=e[a];C d}6 z(b,e,d,a){6 c(f){f=f||1z.4H;D(!f.1K){f.1K=f.4I;f.3f=6(){G.4X=W}}d.N(a||1z,f)}b.3e?b.3e("4V"+e,c):b.4U(e,c,W)}6 x(b,e){F d=l.1M.2A,a=I;D(d==I){d={};J(F c 1Z l.1E){F f=l.1E[c];a=f.4Z;D(a!=I){f.1G=c.51();J(f=0;f<a.E;f++)d[a[f]]=c}}l.1M.2A=d}a=l.1E[d[b]];a==I&&e!=W&&1z.1P(l.X.1d.1P+(l.X.1d.2V+b));C a}6 u(b,e){J(F d=b.1b(/\\r?\\n/),a=0;a<d.E;a++)d[a]=e(d[a],a);C d.2z("\\r\\n")}6 r(b,e){D(b==I||b.E==0||b=="\\n")C b;b=b.L(/</g,"&1v;");b=b.L(/ {2,}/g,6(d){J(F a="",c=0;c<d.E-1;c++)a+=l.X.1L;C a+" "});D(e!=I)b=u(b,6(d){D(d.E==0)C"";F a="";d=d.L(/^(&2y;| )+/,6(c){a=c;C""});D(d.E==0)C a;C a+\'<19 1m="\'+e+\'">\'+d+"</19>"});C b}6 t(b,e){D(b.K<e.K)C-1;U D(b.K>e.K)C 1;U D(b.E<e.E)C-1;U D(b.E>e.E)C 1;C 0}6 m(b,e){6 d(i){C i[0]}J(F a=I,c=[],f=e.2b?e.2b:d;(a=e.1q.Q(b))!=I;){F h=f(a,e);D(16 h=="3c")h=[18 l.2i(h,a.K,e.1S)];c=c.1x(h)}C c}6 A(){J(F b=1N.3E("1h"),e=[],d=0;d<b.E;d++)b[d].3b=="1O"&&e.M(b[d]);C e}D(16 33!="12"&&16 H=="12")H=33("H").H;F l={2M:{"1m-29":"","1V-1f":1,"2G-1f-2F":W,1X:I,27:I,"4m-4M":T,"4J-25":4,35:T,1l:T,"4N-19":T,2O:W,"4O-4R":T,38:W,"1r-1h":W},X:{1L:"&2y;",3A:T,4Q:W,4P:W,3D:"53",1d:{1J:"4k 1g",2C:"?",1P:"1c\\n\\n",2V:"3V\'t 3S 1w J: ",3n:"3N 3P\'t 3T J 1r-1h 3Q: ",3G:\'<!3M 1r 3Z "-//3W//2T 3Y 1.0 3X//3R" "1D://2n.2W.31/3L/2R/2T/2R-4f.4e"><1r 4c="1D://2n.2W.31/4j/4i"><2Y><4b 1D-43="42-41" 45="2t/1r; 46=49-8" /><27>48 1c</27></2Y><3d 1t="28-4E:58,6l,6z,5W-5X;5Y-24:#6d;24:#67;28-25:6h;2t-2Z:30;"><O 1t="2t-2Z:30;2X-2K:1.6n;"><O 1t="28-25:6u-60;">1c</O><O 1t="28-25:.66;2X-68:6a;"><O>2S 3.0.??? (69 22 6b)</O><O><a 2g="1D://2U.2p/1c" 1K="3a" 1t="24:#32">1D://2U.2p/1c</a></O><O>6c 19 6f 6e.</O><O>65 5V-5Z 64 63.</O></O><O>62 61 6i G 1h, 6y <a 2g="6x://2n.6w.2p/6B-6E/6D?6C=6A-6v&6m=6j" 1t="24:#32">6k</a> 6o <6p/>6t 6s 6r!</O></O></3d></1r>\'}},1M:{2A:I,2s:{}},1E:{},6q:{6g:/\\/\\*[\\s\\S]*?\\*\\//1U,5T:/\\/\\/.*$/1U,5m:/#.*$/1U,54:/"([^\\\\"\\n]|\\\\.)*"/g,5l:/\'([^\\\\\'\\n]|\\\\.)*\'/g,5k:18 H(\'"([^\\\\\\\\"]|\\\\\\\\.)*"\',"2Q"),5i:18 H("\'([^\\\\\\\\\']|\\\\\\\\.)*\'","2Q"),5j:/(&1v;|<)!--[\\s\\S]*?--(&1H;|>)/1U,5n:/\\w+:\\/\\/[\\w-.\\/?%&=:@;#]*/g,5o:{11:/(&1v;|<)\\?=?/g,13:/\\?(&1H;|>)/g},5s:{11:/(&1v;|<)%=?/g,13:/%(&1H;|>)/g},5r:{11:/(&1v;|<)\\s*1h.*?(&1H;|>)/34,13:/(&1v;|<)\\/\\s*1h\\s*(&1H;|>)/34}},1l:{1B:6(b){6 e(h,i){C l.1l.2l(h,i,l.X.1d[i])}J(F d=\'<O 1m="1l">\',a=l.1l.2B,c=a.2H,f=0;f<c.E;f++)d+=(a[c[f]].1B||e)(b,c[f]);d+="</O>";C d},2l:6(b,e,d){C\'<37><a 2g="#" 1m="5q 5p\'+e+" "+e+\'">\'+d+"</a></37>"},2f:6(b){F e=b.1K,d=e.1s||"";e=v(w(e,".1O",T).1Q);F a=6(c){C(c=Y(c+"5h(\\\\w+)").Q(d))?c[1]:I}("5g");e&&a&&l.1l.2B[a].2D(e);b.3f()},2B:{2H:["1J","2C"],1J:{1B:6(b){D(b.Z("2O")!=T)C"";F e=b.Z("27");C l.1l.2l(b,"1J",e?e:l.X.1d.1J)},2D:6(b){b=1N.59(p(b.1Q));b.1s=b.1s.L("5U","")}},2C:{2D:6(){F b="57=0";b+=", 11="+(2N.2P-2J)/2+", 2K="+(2N.3g-2I)/2+", 2P=2J, 3g=2I";b=b.L(/^,/,"");b=1z.55("","3a",b);b.3H();F e=b.1N;e.56(l.X.1d.3G);e.5a();b.3H()}}}},5b:6(b,e){F d;D(e)d=[e];U{d=1N.3E(l.X.3D);J(F a=[],c=0;c<d.E;c++)a.M(d[c]);d=a}d=d;a=[];D(l.X.3A)d=d.1x(A());D(d.E===0)C a;J(c=0;c<d.E;c++){J(F f=d[c],h=b,i=d[c].1s,g=3v 0,k={},j=18 H("^\\\\[(?<2x>(.*?))\\\\]$"),n=18 H("(?<29>[\\\\w-]+)\\\\s*:\\\\s*(?<1F>[\\\\w-%#]+|\\\\[.*?\\\\]|\\".*?\\"|\'.*?\')\\\\s*;?","g");(g=n.Q(i))!=I;){F o=g.1F.L(/^[\'"]|[\'"]$/g,"");D(o!=I&&j.1j(o)){o=j.Q(o);o=o.2x.E>0?o.2x.1b(/\\s*,\\s*/):[]}k[g.29]=o}f={1K:f,1C:s(h,k)};f.1C.1w!=I&&a.M(f)}C a},1X:6(b,e){F d=I,a;a=b.1w;D(a!=I){D(a=x(a))d=18 a;a=e.5f;d.2c(b);e.5e.5d("1O");e.5c=d.2h(a)}},5t:6(b){z(1z,"3K",6(){l.1X(b)})}};l.2i=6(b,e,d){G.1F=b;G.K=e;G.E=b.E;G.1S=d;G.1G=I};l.2i.P.1a=6(){C G.1F};l.5u=6(b){6 e(g,k){J(F j=0;j<g.E;j++)g[j].K+=k}F d=x(b),a,c=18 l.1E.5M,f=G,h="2h 1B 2c".1b(" ");D(d!=I){a=18 d;J(F i=0;i<h.E;i++)(6(){F g=h[i];f[g]=6(){C c[g].1k(c,V)}})();a.1W==I?1z.1P(l.X.1d.1P+(l.X.1d.3n+b)):c.2v.M({1q:a.1W.19,2b:6(g){J(F k=g.19,j=[],n=a.2v,o=g.K+g.11.E,y=a.1W,q,B=0;B<n.E;B++){q=m(k,n[B]);e(q,o);j=j.1x(q)}D(y.11!=I&&g.11!=I){q=m(g.11,y.11);e(q,g.K);j=j.1x(q)}D(y.13!=I&&g.13!=I){q=m(g.13,y.13);e(q,g.K+g[0].5L(g.13));j=j.1x(q)}J(g=0;g<j.E;g++)j[g].1G=d.1G;C j}})}};l.3k=6(){};l.3k.P={Z:6(b,e){F d=G.1C[b];d=d==I?e:d;F a={"T":T,"W":W}[d];C a==I?d:a},5K:6(b){C 1N.5I(b)},3l:6(b,e){F d=[];D(b!=I)J(F a=0;a<b.E;a++)D(16 b[a]=="2j")d=d.1x(m(e,b[a]));C G.3p(d.5J(t))},3p:6(b){J(F e=0;e<b.E;e++)D(b[e]!==I)J(F d=b[e],a=d.K+d.E,c=e+1;c<b.E&&b[e]!==I;c++){F f=b[c];D(f!==I)D(f.K>a)1I;U D(f.K==d.K&&f.E>d.E)b[e]=I;U D(f.K>=d.K&&f.K<a)b[c]=I}C b},5N:6(b){F e=[],d=2E(G.Z("1V-1f"));u(b,6(a,c){e.M(c+d)});C e},3s:6(b){F e=G.Z("1X",[]);D(16 e!="2j"&&e.M==I)e=[e];a:{b=b.1a();F d=3v 0;J(d=d=1T.5O(d||0,0);d<e.E;d++)D(e[d]==b){e=d;1I a}e=-1}C e!=-1},2w:6(b,e,d){b=["1f","5S"+e,"K"+b,"5R"+(e%2==0?1:2).1a()];G.3s(e)&&b.M("5Q");e==0&&b.M("1I");C\'<O 1m="\'+b.2z(" ")+\'">\'+d+"</O>"},5P:6(b,e){F d="",a=b.1b(/\\r?\\n/).E,c=2E(G.Z("1V-1f")),f=G.Z("2G-1f-2F");D(f==T)f=(c+a-1).1a().E;U D(3w(f)==T)f=0;J(F h=0;h<a;h++){F i=e?e[h]:c+h,g;D(i==0)g=l.X.1L;U{g=f;J(F k=i.1a();k.E<g;)k="0"+k;g=k}b=g;d+=G.2w(h,i,b)}C d},5H:6(b,e){b=b.L(/^\\s+|\\s+$/g,"");F d=b.1b(/\\r?\\n/);G.Z("2G-1f-2F");F a=2E(G.Z("1V-1f"));b="";J(F c=G.Z("1w"),f=0;f<d.E;f++){F h=d[f],i=/^(&2y;|\\s)+/.Q(h),g=I,k=e?e[f]:a+f;D(i!=I){g=i[0].1a();h=h.1R(g.E);g=g.L(" ",l.X.1L)}h=h.L(/^\\s+|\\s+$/g,"");D(h.E==0)h=l.X.1L;b+=G.2w(f,k,(g!=I?\'<19 1m="\'+c+\' 5G">\'+g+"</19>":"")+h)}C b},5z:6(b){C b?"<3B>"+b+"</3B>":""},3u:6(b,e){6 d(k){C(k=k?k.1G||f:f)?k+" ":""}J(F a=0,c="",f=G.Z("1w",""),h=0;h<e.E;h++){F i=e[h],g;D(!(i===I||i.E===0)){g=d(i);c+=r(b.1R(a,i.K-a),g+"3q")+r(i.1F,g+i.1S);a=i.K+i.E+(i.5y||0)}}c+=r(b.1R(a),d()+"3q");C c},1B:6(b){F e="",d=["1O"];1s="1O";d.M("5x");d.M(G.Z("1m-29"));d.M(G.Z("1w"));b=b.L(/^[ ]*[\\n]+|[\\n]*[ ]*$/g,"").L(/\\r/g," ");e=G.3l(G.2v,b);e=G.3u(b,e);16 2r!="12"&&2r.3y&&2r.3y.1n(/5v/)&&d.M("5w");C e},2h:6(b){C G.1B(b)},2c:6(b){G.1Q=""+1T.5A(1T.5B()*5F).1a();l.1M.2s[p(G.1Q)]=G;G.1C=s(l.2M,b||{});D(G.Z("38")==T)G.1C.1l=G.1C.35=W},5E:6(b){b=b.L(/^\\s+|\\s+$/g,"").L(/\\s+/g,"|");C"\\\\b(?:"+b+")\\\\b"},5D:6(b){G.1W={11:{1q:b.11,1S:"1h"},13:{1q:b.13,1S:"1h"},19:18 H("(?<11>"+b.11.1g+")(?<19>.*?)(?<13>"+b.13.1g+")","5C")}}};C l}();16 21!="12"&&(21.1c=1c);',62,413,'||||||function||||||||||||||||||||||||||||||||return|if|length|var|this|XRegExp|null|for|index|replace|push|call|div|prototype|exec|lastIndex||true|else|arguments|false|config|RegExp|getParam||left|undefined|right|captureNames|slice|typeof|addToken|new|code|toString|split|SyntaxHighlighter|strings|_xregexp|line|source|script|String|test|apply|toolbar|class|match|global|OUTSIDE_CLASS|regex|html|className|style|indexOf|lt|brush|concat|throw|window|isRegExp|getHtml|params|http|brushes|value|brushName|gt|break|expandSource|target|space|vars|document|syntaxhighlighter|alert|id|substr|css|Math|gm|first|htmlScript|highlight|dA|in|Fa|exports||can|color|size|case|title|font|name|cache|func|init|hasFlag|trigger|handler|href|getDiv|Match|object|Error|getButtonHtml|input|www|pattern|com|INSIDE_CLASS|navigator|highlighters|text|hasNamedCapture|regexList|getLineHtml|values|nbsp|join|discoveredBrushes|items|help|execute|parseInt|numbers|pad|list|250|500|top|setFlag|defaults|screen|collapse|width|gs|xhtml1|version|DTD|alexgorbatchev|noBrush|w3|margin|head|align|center|org|005896|require|gi|gutter|highlighter_|span|light|nodeName|_blank|type|string|body|attachEvent|preventDefault|height|charAt|freezeTokens|the|Highlighter|findMatches|TypeError|brushNotHtmlScript|iterate|removeNestedMatches|plain|scope|isLineHighlighted|output|getMatchesHtml|void|isNaN|Za|userAgent|backref|useScriptTags|caption|Array|tagName|getElementsByTagName|sticky|aboutDialog|focus|floor|copyAsGlobal|load|TR|DOCTYPE|Brush|functions|wasn|option|EN|find|configured|gimy|Can|W3C|Transitional|XHTML|PUBLIC|constructor|Type|Content|equiv|another|content|charset|from|About|utf|one|meta|xmlns|definition|dtd|transitional|token|within|xhtml|1999|expand|frame|smart|run|after|childNodes|Object|parentNode|supply|execAt|extended|toUpperCase|matchChain|valueOf|expected|Infinity|try|imsx|catch|default|family|finally|switch|event|srcElement|tab|ignoreCase|constructing|tabs|quick|auto|stripBrs|bloggerMode|links|when|flags|addEventListener|on|escape|returnValue|twice|aliases|same|toLowerCase|multiline|pre|doubleQuotedString|open|write|scrollbars|Geneva|getElementById|close|findElements|innerHTML|add|classList|innerText|command|_|multiLineSingleQuotedString|xmlComments|multiLineDoubleQuotedString|singleQuotedString|singleLinePerlComments|url|phpScriptTags|command_|toolbar_item|scriptScriptTags|aspScriptTags|all|HtmlScript|MSIE|ie|nogutter|offset|getTitleHtml|round|random|sgi|forHtmlScript|getKeywords|1E6|spaces|getCodeLinesHtml|createElement|sort|create|lastIndexOf|Xml|figureOutLineNumbers|max|getLineNumbersHtml|highlighted|alt|number|singleLineCComments|collapsed|2004|sans|serif|background|2010|large|you|If|Gorbatchev|Alex|Copyright|75em|000|bottom|October|3em|2011|JavaScript|fff|highlighter|syntax|multiLineCComments|1em|like|2930402|donate|Arial|hosted_button_id|5em|to|br|regexLib|active|development|keep|xx|xclick|paypal|https|please|Helvetica|_s|cgi|cmd|webscr|bin'.split('|'),0,{}))
+//
+// Begin anonymous function. This is used to contain local scope variables without polutting global scope.
+//
+if (typeof(SyntaxHighlighter) == 'undefined') var SyntaxHighlighter = function() { 
+
+// CommonJS
+if (typeof(require) != 'undefined' && typeof(XRegExp) == 'undefined')
+{
+	XRegExp = require('XRegExp').XRegExp;
+}
+
+// Shortcut object which will be assigned to the SyntaxHighlighter variable.
+// This is a shorthand for local reference in order to avoid long namespace 
+// references to SyntaxHighlighter.whatever...
+var sh = {
+	defaults : {
+		/** Additional CSS class names to be added to highlighter elements. */
+		'class-name' : '',
+		
+		'html-script' : false
+	},
+	
+	config : {
+		space : '&nbsp;',
+		
+		strings : {
+			expandSource : 'expand source',
+			help : '?',
+			alert: 'SyntaxHighlighter\n\n',
+			noBrush : 'Can\'t find brush for: ',
+			brushNotHtmlScript : 'Brush wasn\'t configured for html-script option: ',
+			
+			// this is populated by the build script
+			aboutDialog : '@ABOUT@'
+		}
+	},
+	
+	/** Internal 'global' variables. */
+	vars : {
+		discoveredBrushes : null,
+		highlighters : {}
+	},
+	
+	/** This object is populated by user included external brush files. */
+	brushes : {},
+
+	/** Common regular expressions. */
+	regexLib : {
+		multiLineCComments			: /\/\*[\s\S]*?\*\//gm,
+		singleLineCComments			: /\/\/.*$/gm,
+		singleLinePerlComments		: /#.*$/gm,
+		doubleQuotedString			: /"([^\\"\n]|\\.)*"/g,
+		singleQuotedString			: /'([^\\'\n]|\\.)*'/g,
+		multiLineDoubleQuotedString	: new XRegExp('"([^\\\\"]|\\\\.)*"', 'gs'),
+		multiLineSingleQuotedString	: new XRegExp("'([^\\\\']|\\\\.)*'", 'gs'),
+		xmlComments					: /(&lt;|<)!--[\s\S]*?--(&gt;|>)/gm,
+		url							: /\w+:\/\/[\w-.\/?%&=:@;#]*/g,
+		
+		/** <?= ?> tags. */
+		phpScriptTags 				: { left: /(&lt;|<)\?=?/g, right: /\?(&gt;|>)/g },
+		
+		/** <%= %> tags. */
+		aspScriptTags				: { left: /(&lt;|<)%=?/g, right: /%(&gt;|>)/g },
+		
+		/** <script></script> tags. */
+		scriptScriptTags			: { left: /(&lt;|<)\s*script.*?(&gt;|>)/gi, right: /(&lt;|<)\/\s*script\s*(&gt;|>)/gi }
+	},
+
+	/**
+	 * Replaces text inside element with the equivalent, modified to be syntax highlighted.
+	 * 
+	 * @param {Object} params	parameters to use, including highlighting brush.
+	 * 
+	 * @param {Object} element	element to highlight.
+	 */ 
+	highlight: function(params, element)
+	{
+		var	highlighter = null,
+			conf = sh.config
+			;
+		
+		var brushName,
+			brush,
+			code;
+		
+		var brushName = params.brush;
+		if (brushName == null) return;
+		var brush = findBrush(brushName);
+		
+		if (brush)
+			highlighter = new brush();
+		
+		code = element.innerText;
+		
+		highlighter.init(params);
+		addClass(element, "syntaxhighlighter");
+		element.innerHTML = highlighter.getHtml(code);
+	}
+}; // end of sh
+
+/**
+ * Checks if target DOM elements has specified CSS class.
+ * @param {DOMElement} target Target DOM element to check.
+ * @param {String} className Name of the CSS class to check for.
+ * @return {Boolean} Returns true if class name is present, false otherwise.
+ */
+function hasClass(target, className)
+{
+	return target.className.indexOf(className) != -1;
+};
+
+/**
+ * Adds CSS class name to the target DOM element.
+ * @param {DOMElement} target Target DOM element.
+ * @param {String} className New CSS class to add.
+ */
+function addClass(target, className)
+{
+	if (!hasClass(target, className))
+		target.className += ' ' + className;
+};
+
+/**
+ * Removes CSS class name from the target DOM element.
+ * @param {DOMElement} target Target DOM element.
+ * @param {String} className CSS class to remove.
+ */
+function removeClass(target, className)
+{
+	target.className = target.className.replace(className, '');
+};
+
+/**
+ * Converts the source to array object. Mostly used for function arguments and 
+ * lists returned by getElementsByTagName() which aren't Array objects.
+ * @param {List} source Source list.
+ * @return {Array} Returns array.
+ */
+function toArray(source)
+{
+	var result = [];
+	
+	for (var i = 0; i < source.length; i++) 
+		result.push(source[i]);
+		
+	return result;
+};
+
+/**
+ * Splits block of text into lines.
+ * @param {String} block Block of text.
+ * @return {Array} Returns array of lines.
+ */
+function splitLines(block)
+{
+	return block.split(/\r?\n/);
+}
+
+/**
+ * Generates HTML ID for the highlighter.
+ * @param {String} highlighterId Highlighter ID.
+ * @return {String} Returns HTML ID.
+ */
+function getHighlighterId(id)
+{
+	var prefix = 'highlighter_';
+	return id.indexOf(prefix) == 0 ? id : prefix + id;
+};
+
+/**
+ * Finds Highlighter instance by ID.
+ * @param {String} highlighterId Highlighter ID.
+ * @return {Highlighter} Returns instance of the highlighter.
+ */
+function getHighlighterById(id)
+{
+	return sh.vars.highlighters[getHighlighterId(id)];
+};
+
+/**
+ * Finds highlighter's DIV container.
+ * @param {String} highlighterId Highlighter ID.
+ * @return {Element} Returns highlighter's DIV element.
+ */
+function getHighlighterDivById(id)
+{
+	return document.getElementById(getHighlighterId(id));
+};
+
+/**
+ * Stores highlighter so that getHighlighterById() can do its thing. Each
+ * highlighter must call this method to preserve itself.
+ * @param {Highilghter} highlighter Highlighter instance.
+ */
+function storeHighlighter(highlighter)
+{
+	sh.vars.highlighters[getHighlighterId(highlighter.id)] = highlighter;
+};
+
+/**
+ * Finds an index of element in the array.
+ * @ignore
+ * @param {Object} searchElement
+ * @param {Number} fromIndex
+ * @return {Number} Returns index of element if found; -1 otherwise.
+ */
+function indexOf(array, searchElement, fromIndex)
+{
+	fromIndex = Math.max(fromIndex || 0, 0);
+
+	for (var i = fromIndex; i < array.length; i++)
+		if(array[i] == searchElement)
+			return i;
+	
+	return -1;
+};
+
+/**
+ * Generates a unique element ID.
+ */
+function guid(prefix)
+{
+	return (prefix || '') + Math.round(Math.random() * 1000000).toString();
+};
+
+/**
+ * Merges two objects. Values from obj2 override values in obj1.
+ * Function is NOT recursive and works only for one dimensional objects.
+ * @param {Object} obj1 First object.
+ * @param {Object} obj2 Second object.
+ * @return {Object} Returns combination of both objects.
+ */
+function merge(obj1, obj2)
+{
+	var result = {}, name;
+
+	for (name in obj1) 
+		result[name] = obj1[name];
+	
+	for (name in obj2) 
+		result[name] = obj2[name];
+		
+	return result;
+};
+
+/**
+ * Attempts to convert string to boolean.
+ * @param {String} value Input string.
+ * @return {Boolean} Returns true if input was "true", false if input was "false" and value otherwise.
+ */
+function toBoolean(value)
+{
+	var result = { "true" : true, "false" : false }[value];
+	return result == null ? value : result;
+};
+
+/**
+ * Opens up a centered popup window.
+ * @param {String} url		URL to open in the window.
+ * @param {String} name		Popup name.
+ * @param {int} width		Popup width.
+ * @param {int} height		Popup height.
+ * @param {String} options	window.open() options.
+ * @return {Window}			Returns window instance.
+ */
+function popup(url, name, width, height, options)
+{
+	var x = (screen.width - width) / 2,
+		y = (screen.height - height) / 2
+		;
+		
+	options +=	', left=' + x + 
+				', top=' + y +
+				', width=' + width +
+				', height=' + height
+		;
+	options = options.replace(/^,/, '');
+
+	var win = window.open(url, name, options);
+	win.focus();
+	return win;
+};
+
+/**
+ * Displays an alert.
+ * @param {String} str String to display.
+ */
+function alert(str)
+{
+	window.alert(sh.config.strings.alert + str);
+};
+
+/**
+ * Finds a brush by its alias.
+ *
+ * @param {String} alias		Brush alias.
+ * @param {Boolean} showAlert	Suppresses the alert if false.
+ * @return {Brush}				Returns bursh constructor if found, null otherwise.
+ */
+function findBrush(alias, showAlert)
+{
+	var brushes = sh.vars.discoveredBrushes,
+		result = null
+		;
+	
+	if (brushes == null) 
+	{
+		brushes = {};
+		
+		// Find all brushes
+		for (var brush in sh.brushes) 
+		{
+			var info = sh.brushes[brush],
+				aliases = info.aliases
+				;
+			
+			if (aliases == null) 
+				continue;
+			
+			// keep the brush name
+			info.brushName = brush.toLowerCase();
+			
+			for (var i = 0; i < aliases.length; i++) 
+				brushes[aliases[i]] = brush;
+		}
+		
+		sh.vars.discoveredBrushes = brushes;
+	}
+	
+	result = sh.brushes[brushes[alias]];
+
+	if (result == null && showAlert != false)
+		alert(sh.config.strings.noBrush + alias);
+	
+	return result;
+};
+
+/**
+ * Executes a callback on each line and replaces each line with result from the callback.
+ * @param {Object} str			Input string.
+ * @param {Object} callback		Callback function taking one string argument and returning a string.
+ */
+function eachLine(str, callback)
+{
+	var lines = splitLines(str);
+	
+	for (var i = 0; i < lines.length; i++)
+		lines[i] = callback(lines[i], i);
+		
+	// include \r to enable copy-paste on windows (ie8) without getting everything on one line
+	return lines.join('\r\n');
+};
+
+/**
+ * This is a special trim which only removes first and last empty lines
+ * and doesn't affect valid leading space on the first line.
+ * 
+ * @param {String} str   Input string
+ * @return {String}      Returns string without empty first and last lines.
+ */
+function trimFirstAndLastLines(str)
+{
+	return str.replace(/^[ ]*[\n]+|[\n]*[ ]*$/g, '');
+};
+
+/**
+ * Parses key/value pairs into hash object.
+ * 
+ * Understands the following formats:
+ * - name: word;
+ * - name: [word, word];
+ * - name: "string";
+ * - name: 'string';
+ * 
+ * For example:
+ *   name1: value; name2: [value, value]; name3: 'value'
+ *   
+ * @param {String} str    Input string.
+ * @return {Object}       Returns deserialized object.
+ */
+function parseParams(str)
+{
+	var match, 
+		result = {},
+		arrayRegex = new XRegExp("^\\[(?<values>(.*?))\\]$"),
+		regex = new XRegExp(
+			"(?<name>[\\w-]+)" +
+			"\\s*:\\s*" +
+			"(?<value>" +
+				"[\\w-%#]+|" +		// word
+				"\\[.*?\\]|" +		// [] array
+				'".*?"|' +			// "" string
+				"'.*?'" +			// '' string
+			")\\s*;?",
+			"g"
+		)
+		;
+
+	while ((match = regex.exec(str)) != null) 
+	{
+		var value = match.value
+			.replace(/^['"]|['"]$/g, '') // strip quotes from end of strings
+			;
+		
+		// try to parse array value
+		if (value != null && arrayRegex.test(value))
+		{
+			var m = arrayRegex.exec(value);
+			value = m.values.length > 0 ? m.values.split(/\s*,\s*/) : [];
+		}
+		
+		result[match.name] = value;
+	}
+	
+	return result;
+};
+
+/**
+ * Wraps each line of the string into <code/> tag with given style applied to it.
+ * 
+ * @param {String} str   Input string.
+ * @param {String} css   Style name to apply to the string.
+ * @return {String}      Returns input string with each line surrounded by <code/> tag.
+ */
+function wrapLinesWithCode(str, css)
+{
+	if (str == null || str.length == 0 || str == '\n') 
+		return str;
+
+	str = str.replace(/</g, '&lt;');
+
+	// Replace two or more sequential spaces with &nbsp; leaving last space untouched.
+	str = str.replace(/ {2,}/g, function(m)
+	{
+		var spaces = '';
+		
+		for (var i = 0; i < m.length - 1; i++)
+			spaces += sh.config.space;
+		
+		return spaces + ' ';
+	});
+
+	// Split each line and apply <code class="...">...</code> to them so that
+	// leading spaces aren't included.
+	if (css != null) 
+		str = eachLine(str, function(line)
+		{
+			if (line.length == 0) 
+				return '';
+			
+			var spaces = '';
+			
+			line = line.replace(/^(&nbsp;| )+/, function(s)
+			{
+				spaces = s;
+				return '';
+			});
+			
+			if (line.length == 0) 
+				return spaces;
+			
+			return spaces + '<code class="' + css + '">' + line + '</code>';
+		});
+
+	return str;
+};
+
+/**
+ * Performs various string fixes based on configuration.
+ */
+function fixInputString(str)
+{
+	var br = /<br\s*\/?>|&lt;br\s*\/?&gt;/gi;
+	
+	if (sh.config.bloggerMode == true)
+		str = str.replace(br, '\n');
+
+	if (sh.config.stripBrs == true)
+		str = str.replace(br, '');
+		
+	return str;
+};
+
+/**
+ * Removes all white space at the begining and end of a string.
+ * 
+ * @param {String} str   String to trim.
+ * @return {String}      Returns string without leading and following white space characters.
+ */
+function trim(str)
+{
+	return str.replace(/^\s+|\s+$/g, '');
+};
+
+/**
+ * Callback method for Array.sort() which sorts matches by
+ * index position and then by length.
+ * 
+ * @param {Match} m1	Left object.
+ * @param {Match} m2    Right object.
+ * @return {Number}     Returns -1, 0 or -1 as a comparison result.
+ */
+function matchesSortCallback(m1, m2)
+{
+	// sort matches by index first
+	if(m1.index < m2.index)
+		return -1;
+	else if(m1.index > m2.index)
+		return 1;
+	else
+	{
+		// if index is the same, sort by length
+		if(m1.length < m2.length)
+			return -1;
+		else if(m1.length > m2.length)
+			return 1;
+	}
+	
+	return 0;
+};
+
+/**
+ * Executes given regular expression on provided code and returns all
+ * matches that are found.
+ * 
+ * @param {String} code    Code to execute regular expression on.
+ * @param {Object} regex   Regular expression item info from <code>regexList</code> collection.
+ * @return {Array}         Returns a list of Match objects.
+ */ 
+function getMatches(code, regexInfo)
+{
+	function defaultAdd(match, regexInfo)
+	{
+		return match[0];
+	};
+	
+	var index = 0,
+		match = null,
+		matches = [],
+		func = regexInfo.func ? regexInfo.func : defaultAdd
+		;
+	
+	while((match = regexInfo.regex.exec(code)) != null)
+	{
+		var resultMatch = func(match, regexInfo);
+		
+		if (typeof(resultMatch) == 'string')
+			resultMatch = [new sh.Match(resultMatch, match.index, regexInfo.css)];
+
+		matches = matches.concat(resultMatch);
+	}
+	
+	return matches;
+};
+
+/**
+ * Match object.
+ */
+sh.Match = function(value, index, css)
+{
+	this.value = value;
+	this.index = index;
+	this.length = value.length;
+	this.css = css;
+	this.brushName = null;
+};
+
+sh.Match.prototype.toString = function()
+{
+	return this.value;
+};
+
+/**
+ * Simulates HTML code with a scripting language embedded.
+ * 
+ * @param {String} scriptBrushName Brush name of the scripting language.
+ */
+sh.HtmlScript = function(scriptBrushName)
+{
+	var brushClass = findBrush(scriptBrushName),
+		scriptBrush,
+		xmlBrush = new sh.brushes.Xml(),
+		bracketsRegex = null,
+		ref = this,
+		methodsToExpose = 'getHtml init'.split(' ')
+		;
+
+	if (brushClass == null)
+		return;
+	
+	scriptBrush = new brushClass();
+	
+	for(var i = 0; i < methodsToExpose.length; i++)
+		// make a closure so we don't lose the name after i changes
+		(function() {
+			var name = methodsToExpose[i];
+			
+			ref[name] = function()
+			{
+				return xmlBrush[name].apply(xmlBrush, arguments);
+			};
+		})();
+	
+	if (scriptBrush.htmlScript == null)
+	{
+		alert(sh.config.strings.brushNotHtmlScript + scriptBrushName);
+		return;
+	}
+	
+	xmlBrush.regexList.push(
+		{ regex: scriptBrush.htmlScript.code, func: process }
+	);
+	
+	function offsetMatches(matches, offset)
+	{
+		for (var j = 0; j < matches.length; j++) 
+			matches[j].index += offset;
+	}
+	
+	function process(match, info)
+	{
+		var code = match.code,
+			matches = [],
+			regexList = scriptBrush.regexList,
+			offset = match.index + match.left.length,
+			htmlScript = scriptBrush.htmlScript,
+			result
+			;
+
+		// add all matches from the code
+		for (var i = 0; i < regexList.length; i++)
+		{
+			result = getMatches(code, regexList[i]);
+			offsetMatches(result, offset);
+			matches = matches.concat(result);
+		}
+		
+		// add left script bracket
+		if (htmlScript.left != null && match.left != null)
+		{
+			result = getMatches(match.left, htmlScript.left);
+			offsetMatches(result, match.index);
+			matches = matches.concat(result);
+		}
+		
+		// add right script bracket
+		if (htmlScript.right != null && match.right != null)
+		{
+			result = getMatches(match.right, htmlScript.right);
+			offsetMatches(result, match.index + match[0].lastIndexOf(match.right));
+			matches = matches.concat(result);
+		}
+		
+		for (var j = 0; j < matches.length; j++)
+			matches[j].brushName = brushClass.brushName;
+			
+		return matches;
+	}
+};
+
+/**
+ * Main Highlither class.
+ * @constructor
+ */
+sh.Highlighter = function()
+{
+	// not putting any code in here because of the prototype inheritance
+};
+
+sh.Highlighter.prototype = {
+	/**
+	 * Returns value of the parameter passed to the highlighter.
+	 * @param {String} name				Name of the parameter.
+	 * @param {Object} defaultValue		Default value.
+	 * @return {Object}					Returns found value or default value otherwise.
+	 */
+	getParam: function(name, defaultValue)
+	{
+		var result = this.params[name];
+		return toBoolean(result == null ? defaultValue : result);
+	},
+	
+	/**
+	 * Applies all regular expression to the code and stores all found
+	 * matches in the `this.matches` array.
+	 * @param {Array} regexList		List of regular expressions.
+	 * @param {String} code			Source code.
+	 * @return {Array}				Returns list of matches.
+	 */
+	findMatches: function(regexList, code)
+	{
+		var result = [];
+		
+		if (regexList != null)
+			for (var i = 0; i < regexList.length; i++) 
+				// BUG: length returns len+1 for array if methods added to prototype chain (oising@gmail.com)
+				if (typeof (regexList[i]) == "object")
+					result = result.concat(getMatches(code, regexList[i]));
+		
+		// sort and remove nested the matches
+		return this.removeNestedMatches(result.sort(matchesSortCallback));
+	},
+	
+	/**
+	 * Checks to see if any of the matches are inside of other matches. 
+	 * This process would get rid of highligted strings inside comments, 
+	 * keywords inside strings and so on.
+	 */
+	removeNestedMatches: function(matches)
+	{
+		// Optimized by Jose Prado (http://joseprado.com)
+		for (var i = 0; i < matches.length; i++) 
+		{ 
+			if (matches[i] === null)
+				continue;
+			
+			var itemI = matches[i],
+				itemIEndPos = itemI.index + itemI.length
+				;
+			
+			for (var j = i + 1; j < matches.length && matches[i] !== null; j++) 
+			{
+				var itemJ = matches[j];
+				
+				if (itemJ === null) 
+					continue;
+				else if (itemJ.index > itemIEndPos) 
+					break;
+				else if (itemJ.index == itemI.index && itemJ.length > itemI.length)
+					matches[i] = null;
+				else if (itemJ.index >= itemI.index && itemJ.index < itemIEndPos) 
+					matches[j] = null;
+			}
+		}
+		
+		return matches;
+	},
+	
+	/**
+	 * Finds all matches in the source code.
+	 * @param {String} code		Source code to process matches in.
+	 * @param {Array} matches	Discovered regex matches.
+	 * @return {String} Returns formatted HTML with processed mathes.
+	 */
+	getMatchesHtml: function(code, matches)
+	{
+		var pos = 0, 
+			result = '',
+			brushName = this.getParam('brush', '')
+			;
+		
+		function getBrushNameCss(match)
+		{
+			var result = match ? (match.brushName || brushName) : brushName;
+			return result ? result + ' ' : '';
+		};
+		
+		// Finally, go through the final list of matches and pull the all
+		// together adding everything in between that isn't a match.
+		for (var i = 0; i < matches.length; i++) 
+		{
+			var match = matches[i],
+				matchBrushName
+				;
+			
+			if (match === null || match.length === 0) 
+				continue;
+			
+			matchBrushName = getBrushNameCss(match);
+			
+			result += wrapLinesWithCode(code.substr(pos, match.index - pos), matchBrushName + 'plain')
+					+ wrapLinesWithCode(match.value, matchBrushName + match.css)
+					;
+
+			pos = match.index + match.length + (match.offset || 0);
+		}
+
+		// don't forget to add whatever's remaining in the string
+		result += wrapLinesWithCode(code.substr(pos), getBrushNameCss() + 'plain');
+		return result;
+	},
+	
+	/**
+	 * Generates HTML markup for the whole syntax highlighter.
+	 * @param {String} code Source code.
+	 * @return {String} Returns HTML markup.
+	 */
+	getHtml: function(code)
+	{
+		var html = '',
+			classes = [ 'syntaxhighlighter' ],
+			tabSize,
+			matches,
+			lineNumbers
+			;
+		
+		// process light mode
+		//if (this.getParam('light') == true)
+		//	this.params.toolbar = this.params.gutter = false;
+
+		className = 'syntaxhighlighter';
+
+		//if (this.getParam('collapse') == true)
+		//	classes.push('collapsed');
+		
+		//if ((gutter = this.getParam('gutter')) == false)
+			classes.push('nogutter');
+
+		// add custom user style name
+		classes.push(this.getParam('class-name'));
+
+		// add brush alias to the class name for custom CSS
+		classes.push(this.getParam('brush'));
+
+		code = trimFirstAndLastLines(code)
+			.replace(/\r/g, ' ') // IE lets these buggers through
+			;
+
+		//tabSize = this.getParam('tab-size');
+		
+		// find matches in the code using brushes regex list
+		matches = this.findMatches(this.regexList, code);
+		
+		// processes found matches into the html
+		html = this.getMatchesHtml(code, matches);
+		// finally, split all lines so that they wrap well
+		//html = this.getCodeLinesHtml(html, lineNumbers);
+		
+		if (typeof(navigator) != 'undefined' && navigator.userAgent && navigator.userAgent.match(/MSIE/))
+			classes.push('ie');
+		
+		html = 
+			//'<div id="' + getHighlighterId(this.id) + '" class="' + classes.join(' ') + '">'
+				//+ (this.getParam('toolbar') ? sh.toolbar.getHtml(this) : '')
+				//+ '<table border="0" cellpadding="0" cellspacing="0">'
+				//	+ this.getTitleHtml(this.getParam('title'))
+				//	+ '<tbody>'
+				//		+ '<tr>'
+				//			+ (gutter ? '<td class="gutter">' + this.getLineNumbersHtml(code) + '</td>' : '')
+				//			+ '<td class="code">'
+				//				+ '<div class="container">'
+									 html
+				//				+ '</div>'
+				//			+ '</td>'
+				//		+ '</tr>'
+				//	+ '</tbody>'
+				//+ '</table>'
+			//+ '</div>'
+			;
+			
+		return html;
+	},
+	
+	/**
+	 * Initializes the highlighter/brush.
+	 *
+	 * Constructor isn't used for initialization so that nothing executes during necessary
+	 * `new SyntaxHighlighter.Highlighter()` call when setting up brush inheritence.
+	 *
+	 * @param {Hash} params Highlighter parameters.
+	 */
+	init: function(params)
+	{
+		this.id = guid();
+		
+		// register this instance in the highlighters list
+		storeHighlighter(this);
+		
+		// local params take precedence over defaults
+		this.params = merge(sh.defaults, params || {})
+	},
+	
+	/**
+	 * Converts space separated list of keywords into a regular expression string.
+	 * @param {String} str    Space separated keywords.
+	 * @return {String}       Returns regular expression string.
+	 */
+	getKeywords: function(str)
+	{
+		str = str
+			.replace(/^\s+|\s+$/g, '')
+			.replace(/\s+/g, '|')
+			;
+		
+		return '\\b(?:' + str + ')\\b';
+	},
+	
+	/**
+	 * Makes a brush compatible with the `html-script` functionality.
+	 * @param {Object} regexGroup Object containing `left` and `right` regular expressions.
+	 */
+	forHtmlScript: function(regexGroup)
+	{
+		this.htmlScript = {
+			left : { regex: regexGroup.left, css: 'script' },
+			right : { regex: regexGroup.right, css: 'script' },
+			code : new XRegExp(
+				"(?<left>" + regexGroup.left.source + ")" +
+				"(?<code>.*?)" +
+				"(?<right>" + regexGroup.right.source + ")",
+				"sgi"
+				)
+		};
+	}
+}; // end of Highlighter
+
+return sh;
+}(); // end of anonymous function
+
+// CommonJS
+typeof(exports) != 'undefined' ? exports.SyntaxHighlighter = SyntaxHighlighter : null;
