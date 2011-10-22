@@ -106,7 +106,8 @@ var sh = {
 		if (brush)
 			highlighter = new brush();
 		
-		code = element.innerText;
+		if(element.innerText) code = element.innerText;
+		else code = element.textContent;
 		
 		highlighter.init(params);
 		addClass(element, "syntaxhighlighter");
@@ -804,65 +805,22 @@ sh.Highlighter.prototype = {
 	getHtml: function(code)
 	{
 		var html = '',
-			classes = [ 'syntaxhighlighter' ],
 			tabSize,
 			matches,
 			lineNumbers
 			;
-		
-		// process light mode
-		//if (this.getParam('light') == true)
-		//	this.params.toolbar = this.params.gutter = false;
 
 		className = 'syntaxhighlighter';
-
-		//if (this.getParam('collapse') == true)
-		//	classes.push('collapsed');
-		
-		//if ((gutter = this.getParam('gutter')) == false)
-			classes.push('nogutter');
-
-		// add custom user style name
-		classes.push(this.getParam('class-name'));
-
-		// add brush alias to the class name for custom CSS
-		classes.push(this.getParam('brush'));
 
 		code = trimFirstAndLastLines(code)
 			.replace(/\r/g, ' ') // IE lets these buggers through
 			;
-
-		//tabSize = this.getParam('tab-size');
 		
 		// find matches in the code using brushes regex list
 		matches = this.findMatches(this.regexList, code);
 		
 		// processes found matches into the html
 		html = this.getMatchesHtml(code, matches);
-		// finally, split all lines so that they wrap well
-		//html = this.getCodeLinesHtml(html, lineNumbers);
-		
-		if (typeof(navigator) != 'undefined' && navigator.userAgent && navigator.userAgent.match(/MSIE/))
-			classes.push('ie');
-		
-		html = 
-			//'<div id="' + getHighlighterId(this.id) + '" class="' + classes.join(' ') + '">'
-				//+ (this.getParam('toolbar') ? sh.toolbar.getHtml(this) : '')
-				//+ '<table border="0" cellpadding="0" cellspacing="0">'
-				//	+ this.getTitleHtml(this.getParam('title'))
-				//	+ '<tbody>'
-				//		+ '<tr>'
-				//			+ (gutter ? '<td class="gutter">' + this.getLineNumbersHtml(code) + '</td>' : '')
-				//			+ '<td class="code">'
-				//				+ '<div class="container">'
-									 html
-				//				+ '</div>'
-				//			+ '</td>'
-				//		+ '</tr>'
-				//	+ '</tbody>'
-				//+ '</table>'
-			//+ '</div>'
-			;
 			
 		return html;
 	},
